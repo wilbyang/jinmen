@@ -21,8 +21,6 @@ IMAGES_THUMBS = {
     'big': (270, 270),
 }
 
-
-
 ### crawling control  ###  cyzone.cn ###
 CYZONE_ALLOWED_DOMAINS = ['www.cyzone.cn']
 CYZONE_START_URLS = ['http://www.cyzone.cn/category/18/', 'http://www.cyzone.cn/category/19/', 'http://www.cyzone.cn/category/20/', 'http://www.cyzone.cn/category/22/', 'http://www.cyzone.cn/category/709/']
@@ -48,8 +46,6 @@ LIEYUN_ITEM_REGEX = 'archives/\d+'
 LIEYUN_LIST_RESTRICT_XPATHS = "//div[@id='pagenavi']"
 LIEYUN_ITEM_RESTRICT_XPATHS = "//div[@class='listzone']"
 
-
-
 IRESEARCH_ALLOWED_DOMAINS = ['column.iresearch.cn']
 IRESEARCH_START_URLS = ['http://column.iresearch.cn/expert_app/']
 IRESEARCH_TITLE_XPATH = "//h1[@class='content_title']/text()"
@@ -62,7 +58,7 @@ IRESEARCH_ITEM_REGEX = 'u/.+/\d+\.shtml'
 IRESEARCH_LIST_RESTRICT_XPATHS = "//ul[@class='page']"
 IRESEARCH_ITEM_RESTRICT_XPATHS = "//ul[@class='ul_ellipsis_2 column_list font_Large']"
 
-CURRENTSET = 'IRESEARCH_'
+CURRENTSET = 'CYZONE_'
 
 
 
@@ -104,4 +100,4 @@ ONLINEEDU_ITEM_RESTRICT_XPATHS = "//ul[@id='post_container']"
 DBUSER ='root'
 DBPWD ='yangbo'
 DB ='jinmen'
-DBHOST ='192.168.1.154'
+DBHOST ='188.168.1.107'
